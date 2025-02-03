@@ -1,0 +1,19 @@
+/* Styling for the main app container */
+.App {
+  display: flex; /* Horizontal layout for navbar and content */
+  flex-direction: column;
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  background-color:white; /* Light background color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the content area */
+.content {
+  flex-grow: 1; /* Content takes up remaining space */
+  padding: 20px;
+  background-color: white; /* Background for content */
+  overflow-y: auto; /* Allow scrolling if content exceeds height */
+}

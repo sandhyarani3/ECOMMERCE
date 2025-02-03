@@ -1,0 +1,92 @@
+/* General styling for the Body component */
+.Body {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: space-between; /* Space between left and right sections */
+    height: 100vh; /* Full viewport height */
+    padding: 5px; /* Adjust the gap between sections */
+    background-color: white; /* Light background */
+    margin-top: 100px;
+  }
+  
+  /* Styling for the left section */
+  .left {
+    flex: 1; 
+    text-align: left;
+    padding: 20px;
+    padding-top: 0px;
+    margin-left: 200px;
+  }
+  
+  .left span {
+    font-size: 4rem; 
+    color: black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    display: block; /* Make span behave like a block element for stacking */
+    margin: 0; /* Remove default margin between block elements */
+    line-height: 1.2; /* Adjust line height to reduce space between lines */
+    margin-bottom: -5px;
+  }
+  
+.bottom {
+    margin-top: 30px;
+  }
+  
+  .left h1 {
+    font-size: 2.5rem; /* Larger font size for the title */
+    color: #333; /* Dark color for the text */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the right section */
+  .right {
+    flex: 1; /* Take up available space */
+    display: flex; /* Center the image horizontally */
+    justify-content: center;
+    padding: 20px; /* Reduce padding to decrease the gap */
+    margin-right: 200px;
+  }
+  
+  .right img {
+    width: 80%; /* Set the image width */
+    height: 50%; /* Reduce the height of the image */
+    max-width: 500px; /* Max width for responsiveness */
+  }
+  span{
+    font-size: 5rem; 
+    color:black;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+  }
+  .dashboard {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+  
+  .dashboard h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .dashboard ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .dashboard ul li {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .dashboard ul li:hover {
+    color: #007bff;
+  }
+  
